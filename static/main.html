@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>
+            Medical Assitant
+        </title>
+
+        <link rel="stylesheet" type="text/css" href="static/main_style.css"/>
+
+    </head>
+
+    <body>
+
+        <div class="title-div">
+
+            <p class="title">
+                ExploreCSR Medical Assitant
+            </p>
+
+        </div>
+
+        <div class="form-div">
+
+            <form id="base-form-id" onsubmit="handleSubmit()">
+
+                <div class="input-container">
+                    <label for="user-text-ip" class="form-label">Please describe your condition</label><br/>
+                    <textarea id="user-text-ip"  class="textarea-input" rows="5" cols="60" placeholder="I have a stomache ache" required></textarea>
+                </div>
+                
+                <div class="btn-container">
+                    <button type="submit"  class="submit-btn">
+                        Submit
+                    </button>
+    
+                    <button type="button" onclick="handleClear()" class="clear-btn">
+                        Clear
+                    </button>
+                </div>
+
+            </form>
+
+        </div>
+
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script src="static/main_js.js" type="text/javascript"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+    </body>
+
+</html>

@@ -1,0 +1,195 @@
+body
+{
+    height: 100vh;
+    text-align: center;
+    background-image: url('hosp_1.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 50px;
+    object-fit: contain;
+}
+
+div.title-div
+{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    border-radius: 10px;
+    padding: 5px;
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(0,0,0);
+    box-shadow: 0px 5px 5px #888888;
+    background-color: rgb(255,255,255);
+    margin-bottom: 100px;
+}
+
+p.title
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+div.form-div
+{
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(15, 15, 15);
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(249, 245, 245);
+}
+
+div.input-container
+{
+    padding: 20px;
+}
+
+label.form-label
+{
+    color: rgb(10, 138, 138);
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+textarea.textarea-input
+{
+    border: 1px;
+    border-style: solid;
+    border-color: rgb(0,0,0);
+    margin-top: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+textarea::placeholder
+{
+    color: rgb(144, 140, 140);
+}
+
+div.btn-container
+{
+    margin-bottom: 15px;
+}
+
+button
+{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+button.submit-btn
+{
+    color: rgb(255,255,255);
+    background-color: rgb(255,0,0);
+}
+
+button.clear-btn
+{
+    color: rgb(255,255,255);
+    background-color: rgb(0,0,0);
+}
+
+button.submit-btn:hover
+{
+    cursor: pointer;
+    background-color: rgba(255,0,0,0.8);
+}
+
+button.clear-btn:hover
+{
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.8);
+}
+
+div.response-div
+{
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    width: 70%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.9);
+    color: rgb(255,255,255);
+}
+
+div.response-title
+{
+    font-size: large;
+    color: aqua;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+
+div.card-container
+{
+    display: flex;
+    vertical-align: top;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+div.card
+{
+    display: inline-block;
+    width: 25%;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin-right: 15px;
+    text-align: left;
+    padding: 20px;
+}
+
+a.disease-title, a.disease-title:hover, a.disease-title:active, a.disease-title:visited
+{
+    text-decoration: none;
+}
+
+a.disease-title
+{
+    color: rgb(0,0,0);
+    font-size: 20px;
+}
+
+p.disease-title-container
+{
+    text-align: center;
+}
+
+a:hover
+{
+    font-size: 25px;
+    color: rgb(18, 172, 215);
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+p.disease-similarity-score
+{
+    text-align: center;
+    color: brown;
+}
+
+ul
+{
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+li
+{
+    margin: 0;
+}
